@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sécurité des Données</title>
+</head>
+<style>
+    .body{background-image:url("main.jpg"); padding: 00px;margin: 15px;}
+    .dd{ background:#55b7c8;text-align: right;padding:20px }
+          .id{text-align: center;margin-top:-210px;} 
+          .footer{background-color: black; text-align: center;color: #f4f4f4;padding:15px;}
+</style>
+<body class="body">
+    <div class="dd">
+        <i class="" id="">Choisir une langue</i>
+        <select name="" id="">
+         <option value=""> <a href="">French</a></option>
+         <option value=""> <a href="">English</a></option>
+         <option value=""> <a href="">Chinois</a></option>
+         <option value=""> <a href="">Allemand</a></option>
+         <option value=""> <a href="">Russe</a></option>
+     </select><br><br>
+                 <form action="">
+                     <input titsize="15" maxlength="128" class="form-search" placeholder="Recherche">
+                     <button type="submit"></span>Rechercher</button>
+                 </form>
+     </div>
+                 
+    <h1>Sécurité des Données</h1>
+    <p>L'application garantit la confidentialité et la sécurité des données médicales des patients conformément aux normes et réglementations en vigueur.</p>
+    
+    <!-- Formulaire de connexion -->
+    <h2>Connexion</h2>
+    <form action="connexion.php" method="POST">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Se connecter">
+    </form>
+    <p>Dans cet exemple :
+
+        Le formulaire de connexion (qui serait géré côté serveur) demande à l'utilisateur de saisir un nom d'utilisateur et un mot de passe.
+        Les données du formulaire sont envoyées à un script PHP (connexion.php) pour vérification et authentification côté serveur.
+        Des liens sont fournis vers des ressources supplémentaires sur la sécurité des données et la conformité réglementaire</p>
+    
+    <!-- Liens de sécurité supplémentaires -->
+    <h2>Liens utiles :</h2>
+    <ul>
+        <li><a href="https://www.cnil.fr/">Commission Nationale de l'Informatique et des Libertés (CNIL)</a></li>
+        <li><a href="https://www.ccsnc.net/">Conseil de Contrôle Social des Données à Caractère Personnel (CCSN-CPP)</a></li>
+        <li><a href="https://www.hhs.gov/hipaa/index.html">Health Insurance Portability and Accountability Act (HIPAA)</a></li>
+    </ul><br>
+    <a href="CMS.html">Retour a la page précedante</a>
+    <footer class="footer">    <span>Centre Médico-Social</span><br>
+    <span>BP. 46 Ngaoundéré</span><br>
+    <span>Téléphone: 222 29 20 42</span><br> 
+    <p><div>© Copyright Université de Ngaoundéré. Tous droits reservés</div></p>
+</footer>
+
+</body>
+</html>
